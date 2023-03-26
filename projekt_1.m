@@ -10,7 +10,10 @@ danemanipulatora
 pozycja_orientacja
 disp('wcisnij enter')
 pause
-v_a_linowe
+v_a_liniowe
+disp("wcisnij enter")
+pause
 v_a_katowe
-
+disp("wcisnij enter")
+pause
 
