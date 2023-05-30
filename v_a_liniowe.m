@@ -1,6 +1,6 @@
 for  i=1:n
     % Wybor macierzy Q ze wzgledu na rodzaj pary kinematycznej
-    if dtheta == 0
+    if dtheta(i) == 0
         Q = macierzQprzesuwna(dlambda(i));
         dQ = macierzQprzesuwna(ddlambda(i));
     else
